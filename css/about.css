@@ -1,0 +1,15 @@
+.profile-text {
+    text-align: center;
+    width: 87%;
+}
+.about-photo {
+    display: block;
+    width: 42%;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: 22%;
+    border-radius: 50%;
+}
+h1 {
+    color: dimgrey;
+}

@@ -1,0 +1,141 @@
+@import url("http://fonts.googleapis.com/css?family=Lobster|Raleway:700,400,300 Playfair+Display:700");
+.header-section {
+    padding-top: 76px;
+    padding-bottom: 76px;
+    text-align: center;
+}
+h1 {
+    color: dimgrey;
+}
+body {
+    color: rgba(0, 0, 0, .74);
+    font-size: 16px;
+    line-height: 20px;
+}
+.navigation-bar {
+    margin-top: 45px;
+    text-align: center;
+}
+.nav-link.w--current {
+    color: #303030;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 7px 0px;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    font-family: Montserrat, sans-serif;
+    color: #b9b9b9;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.heading-wrapper {
+    display: block;
+    width: 89%;
+    text-align: center;
+}
+.main-image {
+    margin-bottom: 39px;
+    margin-left: -8.08%;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+img {
+    border: 0;
+}
+.section {
+    position: relative;
+   
+    padding-left: 12.5%;
+    background-color: #fff;
+}
+.byline-text {
+    display: inline-block;
+    margin-right: 5px;
+    font-family: Montserrat, sans-serif;
+}
+.byline-wrapper {
+    margin-bottom: 25px;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.blog-content {
+    display: block;
+    width: 68%;
+    margin-right: auto;
+    margin-bottom: 52px;
+    margin-left: 10%;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 24px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.link-to-page {
+    display: block;
+    width: 60%;
+    margin-right: auto;
+    margin-left: 14%;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    font-family: Montserrat, sans-serif;
+    color: #303030;
+    font-size: 11px;
+    line-height: 111px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a {
+    background-color: transparent;
+}
+div {
+    display: block;
+}
+a:-webkit-any-link {
+    color: #ccc;
+    cursor: pointer;
+}
+.footer {
+    padding-top: 41px;
+    padding-bottom: 41px;
+    border-top: 1px solid rgba(0, 0, 0, .13);
+    text-align: center;
+}
