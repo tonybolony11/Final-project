@@ -8,3 +8,7 @@
     max-width: 100%;
     height: 270px;
 }
+a:-webkit-any-link {
+    color: #ccc;
+    cursor: pointer;
+}

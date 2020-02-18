@@ -43,7 +43,7 @@ body {
 }
 .main-image {
     margin-bottom: 39px;
-    margin-left: -8.08%;
+    margin-left: -14.08%;
 }
 
 img {
@@ -135,7 +135,14 @@ a:-webkit-any-link {
 }
 .footer {
     padding-top: 41px;
-    padding-bottom: 41px;
+    margin-bottom: -55px;
     border-top: 1px solid rgba(0, 0, 0, .13);
     text-align: center;
+}
+.open>.dropdown-menu {
+    display: block;
+    margin-left: 44%;
+}
+,blog-content w-dynn-item{
+    margin-left: -3%;
 }
