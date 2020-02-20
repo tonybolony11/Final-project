@@ -1,4 +1,31 @@
 @import url("http://fonts.googleapis.com/css?family=Lobster|Raleway:700,400,300 Playfair+Display:700");
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color:#fff ;
+    background-color: rgba(17, 17, 17, .5);
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color: #f8512f;
+    background-color: rgba(17, 17, 17, .2);
+}
+nav.navbar {
+    position: fixed;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
 .header-section {
     padding-top: 76px;
     padding-bottom: 76px;
@@ -146,3 +173,9 @@ a:-webkit-any-link {
 ,blog-content w-dynn-item{
     margin-left: -3%;
 }
+@media (max-width: 260px) {
+    h1 {
+        font-size: .5em;
+    }
+  }
+ 
