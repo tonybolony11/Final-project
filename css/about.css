@@ -13,3 +13,67 @@
 h1 {
     color: dimgrey;
 }
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color:#fff ;
+    background-color: rgba(17, 17, 17, .5);
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fcfcfc;
+    text-shadow: 1px 1px 2px #0a0a0a
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color: #f8512f;
+    background-color: rgba(17, 17, 17, .2);
+}
+nav.navbar {
+    position: fixed;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.header-section {
+    padding-top: 76px;
+    padding-bottom: 76px;
+    text-align: center;
+}
+h1 {
+    color: dimgrey;
+}
+body {
+    color: rgba(0, 0, 0, .74);
+    font-size: 16px;
+    line-height: 20px;
+}
+.navigation-bar {
+    margin-top: 45px;
+    text-align: center;
+}
+.nav-link.w--current {
+    color: #303030;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 7px 0px;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+    font-family: Montserrat, sans-serif;
+    color: #b9b9b9;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
